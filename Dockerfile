@@ -8,6 +8,8 @@ RUN git clone https://github.com/Pallavi79/Dockerizing_node_project.git .
 
 ENV PORT=3000
 
+EXPOSE 3000
+
 RUN npm ci
 
 CMD ["npm","start"]
